@@ -239,3 +239,34 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+#project{
+  text-align: center;
+  background-color:#2f2f2f;
+  padding-top: 100px;
+}
+.project-h1{
+  color: #e4aa48;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+#project-innerdiv{
+  display: flex;
+}
+.project-div1{
+  margin: 23px;
+}
+.project-div1 img{
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.project-div1 img:hover{
+  box-shadow: rgba(256, 256, 256, 0.35) 0px 25px 50px -12px;
+}
+.project-inner-h3{
+  margin-top: 20px;
+  color: #fff;
+  font-size: 30px;
+}
