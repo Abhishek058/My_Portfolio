@@ -163,10 +163,18 @@ a {
 }
 .skill-h1 {
   color: #e4aa48;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   font-size: 50px;
 }
-
+.skill-h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.skill-p {
+  color: #fff;
+  margin-bottom: 40px;
+}
 #skill-innerdiv {
   display: inline-flex;
 }
