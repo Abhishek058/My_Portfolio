@@ -263,7 +263,7 @@ a {
   transition: 0.5s;
 }
 .project-div1 img:hover{
-  box-shadow: rgba(256, 256, 256, 0.35) 0px 25px 50px -12px;
+  box-shadow: rgba(255, 163, 26, 0.35) 0px 25px 50px -12px;
 }
 .project-inner-h3{
   margin-top: 20px;
