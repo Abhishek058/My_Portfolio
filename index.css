@@ -1,4 +1,5 @@
 * {
+  font-family: "MV boli";
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
@@ -12,6 +13,11 @@
   width: 100%;
   height: 60px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 #navbar img {
   height: 60px;
@@ -65,6 +71,7 @@ a {
 }
 .info-text {
   background: url("assets/Abst.png");
+  background-repeat: no-repeat;
 }
 #info-h3 {
   color: #e4aa48;
@@ -199,19 +206,19 @@ a {
   transform: translate(-50%, -50%) rotate(-90deg);
   stroke-linecap: round;
 }
-.svg1-cpp{
+.svg1-cpp {
   stroke-dasharray: 220;
 }
-.svg1-css{
+.svg1-css {
   stroke-dasharray: 270;
 }
-.svg1-js{
+.svg1-js {
   stroke-dasharray: 240;
 }
-.svg1-py{
+.svg1-py {
   stroke-dasharray: 200;
 }
-.svg1-rjs{
+.svg1-rjs {
   stroke-dasharray: 220;
 }
 .svg2 {
@@ -241,64 +248,64 @@ a {
   transform: translate(-50%, -50%);
 }
 
-#project{
+#project {
   text-align: center;
-  background-color:#2f2f2f;
+  background-color: #2f2f2f;
   padding-top: 100px;
   padding-bottom: 50px;
 }
-.project-h1{
+.project-h1 {
   color: #e4aa48;
   margin-bottom: 50px;
   font-size: 50px;
 }
-#project-innerdiv{
+#project-innerdiv {
   display: flex;
 }
-.project-div1{
+.project-div1 {
   margin: 23px;
 }
-.project-div1 img{
+.project-div1 img {
   width: 400px;
   height: 300px;
   border-radius: 20px;
   transition: 0.5s;
 }
-.project-div1 img:hover{
+.project-div1 img:hover {
   box-shadow: rgba(255, 163, 26, 0.35) 0px 25px 50px -12px;
 }
-.project-inner-h3{
+.project-inner-h3 {
   margin-top: 20px;
   color: #fff;
   font-size: 30px;
 }
 
-#contact{
+#contact {
   display: flex;
   padding-top: 50px;
   background-color: #191919;
 }
-.contact-detail{
+.contact-detail {
   width: 50%;
   color: white;
   padding-top: 5%;
 }
-.contact-mid-div{
+.contact-mid-div {
   border: 1px solid #fff;
   margin-top: 130px;
   height: 400px;
 }
 
-.contact-msg{
+.contact-msg {
   width: 50%;
   padding: 5%;
 }
-.contact-h1{
+.contact-h1 {
   font-size: 50px;
   margin-left: 50px;
   color: #e4aa48;
 }
-.cont{
+.cont {
   width: 150px;
   margin: 50px;
   margin-left: 200px;
@@ -310,16 +317,17 @@ a {
   border: 1px solid #bd7e0d;
   padding: 2%;
 }
-.cont:hover{
+.cont:hover {
   background-color: #bd7e0d;
   cursor: pointer;
 }
 
-.contact-msg-h1{
+.contact-msg-h1 {
   color: #fff;
   margin-bottom: 30px;
 }
-.input-name, .input-email{
+.input-name,
+.input-email {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #fff;
@@ -332,7 +340,7 @@ a {
   text-transform: none;
   color: #fff;
 }
-.input-msg{
+.input-msg {
   background-color: transparent;
   border: none;
   margin-top: 30px;
@@ -346,7 +354,7 @@ a {
   text-transform: none;
   color: #fff;
 }
-.mail-btn{
+.mail-btn {
   width: 20%;
   font-size: 40px;
   border-radius: 5px;
@@ -354,7 +362,7 @@ a {
   background-color: #e4aa48;
   border: none;
 }
-.mail-btn:hover{
+.mail-btn:hover {
   cursor: pointer;
   background-color: #bd7e0d;
 }
