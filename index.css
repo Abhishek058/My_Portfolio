@@ -6,7 +6,7 @@
 }
 #header {
   background-color: #191919;
-  height: 74vh;
+  height: 100vh;
 }
 #navbar {
   background-color: black;
@@ -20,11 +20,14 @@
   z-index: 1;
 }
 #navbar img {
-  height: 60px;
+  height: 100%;
+  position: absolute;
+  left: 0;
 }
 .navbar-h1 {
   color: #e4aa48;
-  margin-top: 10px;
+  position: absolute;
+  left: 70px;
 }
 .nav-links {
   display: flex;
@@ -63,30 +66,36 @@ a {
 }
 #info {
   display: flex;
-  padding-top: 83px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #myimg {
-  margin-left: 90px;
+  width: 67%;
 }
 .info-text {
+  justify-content: center;
   background: url("assets/Abst.png");
   background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
 }
 #info-h3 {
   color: #e4aa48;
-  margin-top: 100px;
   font-size: 30px;
 }
 #info-h1 {
   color: #fff;
-  margin-top: 7px;
   font-size: 50px;
 }
 #info-p {
   color: #fff;
-  margin-top: 20px;
   font-size: 20px;
+  width: 80%;
 }
 
 .social-vert {
@@ -125,12 +134,10 @@ a {
 
 #about {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #2f2f2f;
-  padding-top: 112px;
-  text-align: center;
-  flex-basis: 100px;
-  margin: auto;
-  padding-bottom: 60px;
+  height: 100vh;
 }
 .about-h1 {
   color: #e4aa48;
@@ -152,11 +159,11 @@ a {
   margin-top: 10px;
 }
 #about-img {
-  display: flex;
-  margin: 80px 100px 80px 200px;
+  padding: 100px;
 }
 #about-img img {
-  border-radius: 30px;
+  border-radius: 20px;
+  width: 400px;
 }
 #about-disc {
   text-align: left;
@@ -165,23 +172,20 @@ a {
 
 #skill {
   background-color: #212121;
-  padding-top: 100px;
+  padding-top: 60px;
   text-align: center;
-  margin: auto;
+  height: 100vh;
 }
 .skill-h1 {
   color: #e4aa48;
-  margin-bottom: 10px;
   font-size: 50px;
 }
 .skill-h3 {
   color: #fff;
-  margin-bottom: 10px;
   font-size: 30px;
 }
 .skill-p {
   color: #fff;
-  margin-bottom: 40px;
 }
 #skill-innerdiv {
   display: inline-flex;
@@ -191,8 +195,8 @@ a {
   padding: 30px;
 }
 .progress-container {
-  width: 260px;
-  height: 260px;
+  width: 250px;
+  height: 250px;
   border-radius: 10px;
   box-sizing: border-box;
   background-color: #1e1e1e;
