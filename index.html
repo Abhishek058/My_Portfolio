@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="newCss.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -18,8 +18,18 @@
   <body>
     <div id="navbar">
       <img src="assets/1651598973338.jpg" alt="" />
-      <h1 class="navbar-h1">Abhishek...</h1>
+      <p class="navbar-p">Abhishek...</p>
       <div class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </div>
+      <i class="fa fa-bars" id="hamburger"></i>
+    </div>
+    <div class="nav-div">
+      <div class="nav-div-links">
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skill">Skills</a></li>
@@ -55,7 +65,8 @@
           <h3 id="info-h3">INTRODUCTION</h3>
           <h1 id="info-h1">Student Developer</h1>
           <p id="info-p">
-            I'm currently Improving my programming skills <br />Reach me through: Social links on left
+            I'm currently Improving my programming skills <br />Reach me
+            through: Social links
           </p>
           <a href="#about" class="learn-more"><br />learn more &#8595;</a>
         </div>
@@ -70,7 +81,7 @@
           I'm a dedicated student pursuing my Bachlors in Computer Science at
           Chitkara University, India. I have been passionate about exploring my
           potential. I have studied many subject during my Course. Apart from
-          academics i have a keen intrest in cooking, Travelling, Adventure.I
+          academics i have a keen intrest in cooking, Travelling, Adventure. I
           aspires to grow up as a software engineer.
         </p>
       </div>
@@ -85,144 +96,165 @@
       <h1 class="skill-h1">Skills</h1>
       <h3 class="skill-h3">What I Am Great At</h3>
       <p class="skill-p"></p>
-      <center>
-        <div id="skill-innerdiv">
-          <div class="skill-c">
-            <div class="progress-container">
-              <svg class="svg1 svg1-cpp" height="300" width="300" id="Hour">
-                <circle
-                  cx="150"
-                  cy="150"
-                  r="50"
-                  stroke="#bd7e0d"
-                  stroke-width="10"
-                  fill="transparent"
-                />
-              </svg>
-              <svg class="svg2" height="300" width="300" id="Hour">
-                <circle
-                  cx="150"
-                  cy="150"
-                  r="50"
-                  stroke="#bd7e0d"
-                  stroke-width="10"
-                  fill="transparent"
-                />
-              </svg>
-              <h1 class="title">70%</h1>
-              <h1 class="title2">C++</h1>
-            </div>
-          </div>
-          <div class="skill-c">
-            <div class="progress-container">
-              <svg class="svg1 svg1-css" height="300" width="300" id="Hour">
-                <circle
-                  cx="150"
-                  cy="150"
-                  r="50"
-                  stroke="#bd7e0d"
-                  stroke-width="10"
-                  fill="transparent"
-                />
-              </svg>
-              <svg class="svg2" height="300" width="300" id="Hour">
-                <circle
-                  cx="150"
-                  cy="150"
-                  r="50"
-                  stroke="#bd7e0d"
-                  stroke-width="10"
-                  fill="transparent"
-                />
-              </svg>
-              <h1 class="title">90%</h1>
-              <h1 class="title2">CSS</h1>
-            </div>
-          </div>
-          <div class="skill-c">
-            <div class="progress-container">
-              <svg class="svg1 svg1-js" height="300" width="300" id="Hour">
-                <circle
-                  cx="150"
-                  cy="150"
-                  r="50"
-                  stroke="#bd7e0d"
-                  stroke-width="10"
-                  fill="transparent"
-                />
-              </svg>
-              <svg class="svg2" height="300" width="300" id="Hour">
-                <circle
-                  cx="150"
-                  cy="150"
-                  r="50"
-                  stroke="#bd7e0d"
-                  stroke-width="10"
-                  fill="transparent"
-                />
-              </svg>
-              <h1 class="title">80%</h1>
-              <h1 class="title2">JavaScript</h1>
-            </div>
+      <div id="skill-innerdiv">
+        <div class="skill-c">
+          <div class="progress-container">
+            <svg class="svg1 svg1-cpp" height="300" width="300" id="Hour">
+              <circle
+                cx="150"
+                cy="150"
+                r="50"
+                stroke="#bd7e0d"
+                stroke-width="10"
+                fill="transparent"
+              />
+            </svg>
+            <svg class="svg2" height="300" width="300" id="Hour">
+              <circle
+                cx="150"
+                cy="150"
+                r="50"
+                stroke="#bd7e0d"
+                stroke-width="10"
+                fill="transparent"
+              />
+            </svg>
+            <h1 class="title">80%</h1>
+            <h1 class="title2">C++</h1>
           </div>
         </div>
-      </center>
-      <center>
-        <div id="skill-innerdiv">
-          <div class="skill-c">
-            <div class="progress-container">
-              <svg class="svg1 svg1-py" height="300" width="300" id="Hour">
-                <circle
-                  cx="150"
-                  cy="150"
-                  r="50"
-                  stroke="#bd7e0d"
-                  stroke-width="10"
-                  fill="transparent"
-                />
-              </svg>
-              <svg class="svg2" height="300" width="300" id="Hour">
-                <circle
-                  cx="150"
-                  cy="150"
-                  r="50"
-                  stroke="#bd7e0d"
-                  stroke-width="10"
-                  fill="transparent"
-                />
-              </svg>
-              <h1 class="title">60%</h1>
-              <h1 class="title2">Python</h1>
-            </div>
-          </div>
-          <div class="skill-c">
-            <div class="progress-container">
-              <svg class="svg1 svg1-rjs" height="300" width="300" id="Hour">
-                <circle
-                  cx="150"
-                  cy="150"
-                  r="50"
-                  stroke="#bd7e0d"
-                  stroke-width="10"
-                  fill="transparent"
-                />
-              </svg>
-              <svg class="svg2" height="300" width="300" id="Hour">
-                <circle
-                  cx="150"
-                  cy="150"
-                  r="50"
-                  stroke="#bd7e0d"
-                  stroke-width="10"
-                  fill="transparent"
-                />
-              </svg>
-              <h1 class="title">70%</h1>
-              <h1 class="title2">React.js</h1>
-            </div>
+        <div class="skill-c">
+          <div class="progress-container">
+            <svg class="svg1 svg1-jva" height="300" width="300" id="Hour">
+              <circle
+                cx="150"
+                cy="150"
+                r="50"
+                stroke="#bd7e0d"
+                stroke-width="10"
+                fill="transparent"
+              />
+            </svg>
+            <svg class="svg2" height="300" width="300" id="Hour">
+              <circle
+                cx="150"
+                cy="150"
+                r="50"
+                stroke="#bd7e0d"
+                stroke-width="10"
+                fill="transparent"
+              />
+            </svg>
+            <h1 class="title">80%</h1>
+            <h1 class="title2">JAVA</h1>
           </div>
         </div>
-      </center>
+
+        <div class="skill-c">
+          <div class="progress-container">
+            <svg class="svg1 svg1-js" height="300" width="300" id="Hour">
+              <circle
+                cx="150"
+                cy="150"
+                r="50"
+                stroke="#bd7e0d"
+                stroke-width="10"
+                fill="transparent"
+              />
+            </svg>
+            <svg class="svg2" height="300" width="300" id="Hour">
+              <circle
+                cx="150"
+                cy="150"
+                r="50"
+                stroke="#bd7e0d"
+                stroke-width="10"
+                fill="transparent"
+              />
+            </svg>
+            <h1 class="title">80%</h1>
+            <h1 class="title2">JavaScript</h1>
+          </div>
+        </div>
+        <div class="skill-c">
+          <div class="progress-container">
+            <svg class="svg1 svg1-py" height="300" width="300" id="Hour">
+              <circle
+                cx="150"
+                cy="150"
+                r="50"
+                stroke="#bd7e0d"
+                stroke-width="10"
+                fill="transparent"
+              />
+            </svg>
+            <svg class="svg2" height="300" width="300" id="Hour">
+              <circle
+                cx="150"
+                cy="150"
+                r="50"
+                stroke="#bd7e0d"
+                stroke-width="10"
+                fill="transparent"
+              />
+            </svg>
+            <h1 class="title">60%</h1>
+            <h1 class="title2">Python</h1>
+          </div>
+        </div>
+        <div class="skill-c">
+          <div class="progress-container">
+            <svg class="svg1 svg1-css" height="300" width="300" id="Hour">
+              <circle
+                cx="150"
+                cy="150"
+                r="50"
+                stroke="#bd7e0d"
+                stroke-width="10"
+                fill="transparent"
+              />
+            </svg>
+            <svg class="svg2" height="300" width="300" id="Hour">
+              <circle
+                cx="150"
+                cy="150"
+                r="50"
+                stroke="#bd7e0d"
+                stroke-width="10"
+                fill="transparent"
+              />
+            </svg>
+            <h1 class="title">90%</h1>
+            <h1 class="title2">CSS</h1>
+          </div>
+        </div>
+        <div class="skill-c">
+          <div class="progress-container">
+            <svg class="svg1 svg1-rjs" height="300" width="300" id="Hour">
+              <circle
+                cx="150"
+                cy="150"
+                r="50"
+                stroke="#bd7e0d"
+                stroke-width="10"
+                fill="transparent"
+              />
+            </svg>
+            <svg class="svg2" height="300" width="300" id="Hour">
+              <circle
+                cx="150"
+                cy="150"
+                r="50"
+                stroke="#bd7e0d"
+                stroke-width="10"
+                fill="transparent"
+              />
+            </svg>
+            <h1 class="title">80%</h1>
+            <h1 class="title2">React.js</h1>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="project">
       <h1 class="project-h1">Projects</h1>
@@ -239,8 +271,6 @@
           <img src="assets/Screenshot 2022-05-10 112649.png" alt="" />
           <h3 class="project-inner-h3">ToDo list</h3>
         </div>
-      </div>
-      <div id="project-innerdiv">
         <div class="project-div1">
           <img src="assets/Screenshot (27).png" alt="" />
           <h3 class="project-inner-h3">Hackathon Project</h3>
@@ -257,22 +287,37 @@
     </div>
     <div id="contact">
       <div class="contact-detail">
-        <h1 class="contact-h1">Contact :</h1>
         <a
           href="https://www.linkedin.com/in/abhishek-mehta-455992237/"
           target="_blank"
         >
           <div class="cont cont-Linkedin">Linkedin</div></a
         >
-        <div class="cont cont-phone">Whatsapp</div>
-        <div class="cont cont-Github">Github</div>
-        <div class="cont cont-twitter">Twitter</div>
+        <a
+          href="https://www.linkedin.com/in/abhishek-mehta-455992237/"
+          target="_blank"
+        >
+          <div class="cont cont-phone">Whatsapp</div>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/abhishek-mehta-455992237/"
+          target="_blank"
+        >
+          <div class="cont cont-Github">Github</div></a
+        >
+        <a
+          href="https://www.linkedin.com/in/abhishek-mehta-455992237/"
+          target="_blank"
+        >
+          <div class="cont cont-twitter">Twitter</div></a
+        >
       </div>
       <div class="contact-mid-div"></div>
       <div class="contact-msg">
         <h1 class="contact-msg-h1">
-          Let's grab a coffee and jump on<br />
-          conversation<span style="color: #bd7e0d; font-weight: 300">
+          Let's grab a coffee and jump on conversation<br /><span
+            style="color: #bd7e0d; font-weight: 300"
+          >
             chat with me.</span
           >
         </h1>
