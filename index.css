@@ -598,3 +598,16 @@ a {
   cursor: pointer;
   transition: 0.5s;
 }
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #333;
+}
